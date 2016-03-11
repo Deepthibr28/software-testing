@@ -1,10 +1,30 @@
 #!/bin/bash
 
+<<<<<<< HEAD
 # Install python-pip 1.5.4-1. Latest version of pip installation broken; hence installing older!
 sudo apt-get install -y python-pip=1.5.4-1
+=======
+# Update package list
+sudo apt-get update
+
+# Install python-pip
+sudo apt-get install -y python-pip
+>>>>>>> 55505537fe999529bb044ab791d5a614ea63240f
 
 # Install nose
 sudo pip install nose
 
 # Install coverage
 sudo pip install coverage
+<<<<<<< HEAD
+=======
+
+# Install PhantomJS
+sudo apt-get install -y phantomjs
+
+# Install Selenium WebDriver
+sudo pip install selenium
+
+# Clean up downloaded archives
+sudo apt-get clean
+>>>>>>> 55505537fe999529bb044ab791d5a614ea63240f
